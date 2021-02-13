@@ -1,7 +1,7 @@
 package ru.geekbrains.lesson6;
 
 public abstract class Animal {
-    private String name;
+    String name;
     private static int count;
 
     public Animal(String name) {

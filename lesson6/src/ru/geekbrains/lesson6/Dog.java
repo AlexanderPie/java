@@ -3,12 +3,10 @@ package ru.geekbrains.lesson6;
 public class Dog extends Animal{
     private final int runMax=500;
     private final int swimMax=10;
-    private String name;
     private static int count;
 
     public Dog(String name) {
         super(name);
-        this.name = name;
         count++;
     }
 
